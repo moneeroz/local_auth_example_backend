@@ -70,7 +70,7 @@ app.post("/login", function (req, res) {
       }
     })
     .catch((err) => {
-      res.status(500).send(console.log(err));
+      res.status(500).send(err);
     });
 });
 
