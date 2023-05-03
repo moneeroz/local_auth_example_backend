@@ -1,8 +1,8 @@
 const Sequelize = require("sequelize");
 const config = require("../config/config");
 
-config.define(
-  "User",
+const User = config.define(
+  "user",
   {
     id: {
       type: Sequelize.INTEGER,
